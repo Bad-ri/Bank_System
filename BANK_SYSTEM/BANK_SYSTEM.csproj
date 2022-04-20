@@ -70,6 +70,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Web.config" />
     <Content Include="sign up.aspx" />
+    <Content Include="Home.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Login.aspx.cs">
@@ -86,6 +87,13 @@
     </Compile>
     <Compile Include="sign up.aspx.designer.cs">
       <DependentUpon>sign up.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

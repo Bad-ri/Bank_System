@@ -23,5 +23,15 @@ namespace BANK_SYSTEM
         {
 
         }
+
+        protected void TextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
