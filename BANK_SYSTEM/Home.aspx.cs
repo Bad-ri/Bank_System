@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace BANK_SYSTEM
 {
-    public partial class WebForm2 : System.Web.UI.Page
+    public partial class Home : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void ChangePassword1_ChangedPassword(object sender, EventArgs e)
         {
 
         }
