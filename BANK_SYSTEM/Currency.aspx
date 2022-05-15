@@ -269,69 +269,69 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td class="auto-style4">
-                        <table class="auto-style2">
+                        <table class="auto-style2" style="font-family: Calibri; font-size: x-large; font-weight: bold; font-variant: normal; text-align: center">
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000;"><span style="color: rgb(255, 255, 255); font-family: LatoBold; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 153, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currency</span></td>
-                                <td class="auto-style9" style="border: thin solid #000000"><span style="color: rgb(255, 255, 255); font-family: LatoBold; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 153, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Buy</span></td>
-                                <td style="border: thin solid #000000"><span style="color: rgb(255, 255, 255); font-family: LatoBold; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 153, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sell</span></td>
+                                <td class="auto-style5" style="border: thin solid #000000;"><span style="color: rgb(255, 255, 255); font-family: LatoBold; font-size: xx-large; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 153, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Currency</span></td>
+                                <td class="auto-style9" style="border: thin solid #000000"><span style="color: rgb(255, 255, 255); font-family: LatoBold; font-size: xx-large; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 153, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Buy</span></td>
+                                <td style="border: thin solid #000000"><span style="color: rgb(255, 255, 255); font-family: LatoBold; font-size: xx-large; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 153, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;Sell</span></td>
                             </tr>
                             <tr>
-                                <td class="auto-style6" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; US Dollar</td>
+                                <td class="auto-style6" style="border: thin solid #000000; color: #FFFFFF;">US Dollar</td>
                                 <td class="auto-style10" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">18,44</td>
                                 <td class="auto-style3" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">18,58</td>
                             </tr>
                             <tr>
-                                <td class="auto-style7" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Euro</td>
+                                <td class="auto-style7" style="border: thin solid #000000; color: #FFFFFF;">Euro</td>
                                 <td class="auto-style11" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">19,33</td>
                                 <td class="auto-style8" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">18,43</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pound Sterling</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Pound Sterling</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">22,91</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">23,03</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swiss</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Swiss</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">18,92</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">19,05</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yen</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Yen</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">14,09</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">14,16</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saudi Riyal</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;Saudi Riyal</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">4,91</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">4,94</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kuwaiti Dinar </td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Kuwaiti Dinar </td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">60,05</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">60,41</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UAE Dirham</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">UAE Dirham</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">5,02</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">5,04</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yuan</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Yuan</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">2,78</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">2,80</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Canidian Dollar</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Canidian Dollar</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">18,56</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">18,80</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rupee</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">Rupee</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">0.24</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">0.30</td>
                             </tr>
                             <tr>
-                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; krona</td>
+                                <td class="auto-style5" style="border: thin solid #000000; color: #FFFFFF;">krona</td>
                                 <td class="auto-style9" style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">0.15</td>
                                 <td style="background-color: #FFFFCC; text-transform: capitalize; font-family: Arial; cursor: auto;">0.21</td>
                             </tr>

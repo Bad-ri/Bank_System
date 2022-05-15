@@ -90,7 +90,7 @@
 
 	.firsthalf {
 		width: 100%;
-		display: flex;
+		display: block;
 		flex-direction: column;
 		justify-content: center;
 	}
@@ -198,40 +198,38 @@
     <section class="firstsection">
         <div class="box-main">
             <div class="firstHalf">
-                <h1 class="text-big" id="web" style="font-size: 80px; font-weight: 900; text-transform: uppercase">News</h1>
+                <h1 class="text-big" style="font-size: 80px; font-weight: 900; text-transform: uppercase">&nbsp;</h1>
+                <h1 class="text-big" style="font-size: 80px; font-weight: 900; text-transform: uppercase">&nbsp;</h1>
+                <h1 class="text-big" style="font-size: 80px; font-weight: 900; text-transform: uppercase">&nbsp;</h1>
+                <p class="text-big" style="font-size: 80px; font-weight: 900; text-transform: uppercase">&nbsp;</p>
+                <p class="text-big" style="font-size: 80px; font-weight: 900; text-transform: uppercase">&nbsp;</p>
+                <h1 class="text-big" style="font-size: 80px; font-weight: 900; text-transform: uppercase">News</h1>
                 <p class="text-big">&nbsp;</p>
                 <h1 class="entry-title text-bold" style="box-sizing: border-box; overflow-wrap: break-word; font-family: Lora, &quot;Droid Arabic Kufi&quot;, serif; font-size: 36px; margin: 0px 0px 10px; font-weight: 700; line-height: 1.1; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 128, 0); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"># CBE raises interest rate by 1% in exceptional meeting, Egyptian pound declines significantly</h1>
                 <p class="entry-title text-bold" style="box-sizing: border-box; overflow-wrap: break-word; font-family: Lora, &quot;Droid Arabic Kufi&quot;, serif; font-size: 36px; margin: 0px 0px 10px; font-weight: 700; line-height: 1.1; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 128, 0); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
                     &nbsp;</p>
                 <p class="entry-title text-bold" style="box-sizing: border-box; overflow-wrap: break-word; font-family: Lora, &quot;Droid Arabic Kufi&quot;, serif; font-size: 36px; margin: 0px 0px 10px; font-weight: 700; line-height: 1.1; color: rgb(0, 0, 0); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 128, 0); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
                     # Egypt looks forward to US Export-Import Bank providing low-cost finance for green projects: Finance Minister</p>
+
                 <p class="text-small">
+
                     &nbsp;</p>
+ 
+ 
+                <h1 class="sectionTag text-big">About Us</h1>
+                <p class="sectionTag text-big">NB is the oldest commercial bank in Egypt. It was established on June 25, 1898 with a capital of £ 1 million. Throughout its long history, NB&#39;s functions and roles have continually developed to square with the different economic and political stages in Egypt. During the 1950s, NB assumed the central bank&#39;s duties. After its nationalization in the 1960s, it acted as a pure commercial bank besides carrying out the functions of the central bank in the areas where the latter had no branches. </p>
  
  
             </div>
         </div>
     </section>
  
-    <section class="secondsection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" id="program">
-                    Contact US</h1>
-                <p class="text-big">
-                    &nbsp;</p>
-                <p class="text-small">
-                    Personal Banking (+202 35679700)
-</p>
- 
- 
-            </div>
-        </div>
-    </section>
  
     <section class="section">
         <div class="paras">
-            <h1 class="sectionTag text-big">About Us</h1>
+ 
+ 
+            <br />
  
  
         </div>

@@ -42,7 +42,9 @@ namespace BANK_SYSTEM
                 cmd.ExecuteNonQuery();
                 sql.Close();
                 x.Text ="Done!";
-            }
+            TextBox1.Text = string.Empty;
+            TextBox2.Text = string.Empty;
+        }
           
     }
 }
