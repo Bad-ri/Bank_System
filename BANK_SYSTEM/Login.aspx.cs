@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 namespace BANK_SYSTEM
 {
@@ -21,7 +22,21 @@ namespace BANK_SYSTEM
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            // create a connection object to the database
+            SqlConnection conn = new SqlConnection();
+            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mmesk\\Documents\\GitHub\\Bank_System\\BANK_SYSTEM\\App_Data\\Database1.mdf;Integrated Security=True";
 
+
+            string strSelect = "SELECT * FROM member "
+                + " WHERE Username = '" + TextBox1.Text + "'";
+
+            SqlCommand cmdSelect = new SqlCommand(strSelect, conn);
+
+            SqlDataReader reader;
+
+            conn.Open();
+            reader = cmdSelect.ExecuteReader();
+            conn.Close();
         }
 
         protected void TextBox2_TextChanged(object sender, EventArgs e)

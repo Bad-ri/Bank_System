@@ -229,18 +229,18 @@
         }
         .auto-style27 {
             width: 499px;
-            height: 187px;
+            height: 149px;
         }
         .auto-style28 {
             width: 36px;
-            height: 187px;
+            height: 149px;
         }
         .auto-style29 {
             width: 209px;
-            height: 187px;
+            height: 149px;
         }
         .auto-style30 {
-            height: 187px;
+            height: 149px;
         }
         .auto-style31 {
             width: 499px;
@@ -281,10 +281,10 @@
             <div class="logo">
                 <img src= "images/52.png">
             </div>
-            <li><a href="#web">News</a></li>
+          <%--  <li><a href="#web">News</a></li>
             <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
-			<li><a href="Branches.aspx">Branches</a></li>
+			<li><a href="Branches.aspx">Branches</a></li>--%>
             <li><a href="sign up.aspx">Register</a></li>
 		    <li><a href="Home.aspx">Home</a></li>
         </ul>

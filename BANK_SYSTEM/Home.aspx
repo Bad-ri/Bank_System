@@ -182,10 +182,10 @@
             <div class="logo">
                 <img src= "images/52.png">
             </div>
-            <li><a href="#web">News</a></li>
+          <%--  <li><a href="#web">News</a></li>
             <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
-			<li><a href="Branches.aspx">Branches</a></li>
+			<li><a href="Branches.aspx">Branches</a></li>--%>
             <li><a href="sign up.aspx">Register</a></li>
 		    <li><a href="Login.aspx">Login</a></li>
         </ul>

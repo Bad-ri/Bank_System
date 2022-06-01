@@ -6,13 +6,7 @@
 <head runat="server">
     <title></title>
     <style type="text/css">
-        .auto-style1 {
-            width: 100%;
-        }
-        .auto-style2 {
-            height: 23px;
-        }
-        
+                
 #rcorners4 {
   border-radius: 15px;
   background: #008080;
@@ -36,13 +30,6 @@
   width: 200px;
   height: 80px; 
 } 
-        .auto-style3 {
-            width: 131px;
-        }
-        .auto-style4 {
-            height: 23px;
-            width: 131px;
-        }
         body {
              
          background-image: url("images/2.png");
@@ -222,21 +209,25 @@
   height: 100px; 
 } 
 
-        .auto-style5 {
-            width: 131px;
-            height: 21px;
+        .auto-style1 {
+            width: 100%;
         }
-        .auto-style6 {
-            height: 21px;
+		.frame{
+             box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+             border-radius: 10px;
+             width: 210px;
+             height:30px;
+        }
+        .frame:hover {
+             transform: scale(1.1);
+             box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
         }
 
-        .auto-style7 {
-            width: 454px;
-            height: 114px;
+        .auto-style2 {
+            width: 424px;
         }
-
-        .auto-style8 {
-            margin-left: 191px;
+        .auto-style3 {
+            margin-left: 56px;
         }
 
     </style>
@@ -247,12 +238,12 @@
             <div class="logo">
                 <img src= "images/52.png">
             </div>
-            <li><a href="#web">News</a></li>
-               <li><a href="Currency.aspx">currency</a></li>
-            <li><a href="Login.aspx">Login</a></li>
-			<li><a href="Branches.aspx">Branches</a></li>
-            <li><a href="sign up.aspx">Register</a></li>
-		    <li><a href="Home.aspx">Home</a></li>
+             <li><a href="Branches.aspx">Branches</a></li>
+           <li><a href="Currency.aspx">currency</a></li>
+            <li><a href="Transaction.aspx">Transaction</a></li>
+		
+            <li><a href="#">Sign Out</a></li>
+		    <li><a href="User_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
             <input type="text" name="search" id="search">
@@ -263,58 +254,42 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td style="font-size: xx-large; font-weight: 800; font-style: oblique">&nbsp;</td>
-                    <td style="font-size: xx-large; font-weight: 800; font-style: oblique">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style4"></td>
-                    <td class="auto-style2" style="font-size: xx-large; font-weight: bold; background-color: #C0C0C0;">&nbsp;Current Account</td>
-                    <td class="auto-style2" style="font-size: xx-large; font-weight: bold; background-color: #C0C0C0;">&nbsp;Saving Account</td>
-                    <td class="auto-style2" style="font-size: xx-large; font-weight: bold; background-color: #C0C0C0;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deposite</td>
-                    <td class="auto-style2"></td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td><p id="rcorners5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ballance:559,654,780,98&nbsp;&nbsp; EGP&nbsp;</p></td>
-                    <td><p id="rcorners4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ballance:12,597,153,25 EGP</p>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td style="font-size: xx-large; color: #C0C0C0">&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <br />
+&nbsp;&nbsp; Transactions<br />
+                        <br />
                     </td>
-                    <td><p id="rcorners6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ballance:500,000,000,000,00EGP&nbsp;</p></td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="frame"  placeholder="ACCOUNT ID"></asp:TextBox>
+                    </td>
                     <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>
+                        <asp:TextBox ID="TextBox2" runat="server" CssClass="frame"  placeholder="AMOUNT"></asp:TextBox>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
                     <td>
                         <br />
+                        <br />
                     </td>
-                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style5"></td>
-                    <td class="auto-style6"></td>
-                    <td class="auto-style6" style="font-size: xx-large; background-color: #C0C0C0; font-weight: bold">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transaction<br />
-                        </td>
-                    <td class="auto-style6">
-                        <br />
-                        <br />
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>
+                        <asp:Button ID="Button1" runat="server" Text="Send" CssClass="auto-style3" Width="109px" />
                     </td>
-                    <td class="auto-style6"></td>
-                </tr>
-                <tr>
-                    <td class="auto-style3">&nbsp;</td>
-                    <td colspan="3"><p id="rcorners8" class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Name:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Account Number:
-                        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amount of money :
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:Button ID="Button1" runat="server" CssClass="auto-style8" OnClick="Button1_Click" Text="Send" Width="573px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
