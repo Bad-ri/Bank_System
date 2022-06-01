@@ -32,7 +32,7 @@
 } 
         body {
              
-         background-image: url("images/2.png");
+         background-image: url("images/xx (2).png");
          background-repeat: repeat;
          background-attachment: fixed;
          background-size: unset;
@@ -230,6 +230,10 @@
             margin-left: 56px;
         }
 
+        .auto-style4 {
+            margin-left: 54px;
+        }
+
     </style>
 </head>
 <body>
@@ -238,11 +242,11 @@
             <div class="logo">
                 <img src= "images/52.png">
             </div>
-             <li><a href="Branches.aspx">Branches</a></li>
+            <li><a href="Branches.aspx">Branches</a></li>
            <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
-		
-            <li><a href="#">Sign Out</a></li>
+			<li><a href="Edit_profile.aspx">Edit</a></li>
+            <li><a href="Home.aspx">Sign Out</a></li>
 		    <li><a href="User_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
@@ -266,9 +270,11 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td>
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="frame"  placeholder="ACCOUNT ID"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1" runat="server" CssClass="frame"  placeholder="UserName"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Label ID="y" runat="server" Font-Size="XX-Large" ForeColor="#00CC00" Text="Label"></asp:Label>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
@@ -281,6 +287,8 @@
                     <td class="auto-style2">&nbsp;</td>
                     <td>
                         <br />
+                        <asp:Button ID="Button2" runat="server" CssClass="auto-style4" OnClick="Button2_Click" Text="Search" Width="111px" />
+                        <br />
                         <br />
                     </td>
                     <td>&nbsp;</td>
@@ -288,7 +296,7 @@
                 <tr>
                     <td class="auto-style2">&nbsp;</td>
                     <td>
-                        <asp:Button ID="Button1" runat="server" Text="Send" CssClass="auto-style3" Width="109px" />
+                        <asp:Button ID="Button1" runat="server" Text="Send" CssClass="auto-style3" Width="109px" OnClick="Button1_Click1" />
                     </td>
                     <td>&nbsp;</td>
                 </tr>

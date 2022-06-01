@@ -184,6 +184,12 @@
              width: 210px;
              height:30px;
         }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 121px;
+        }
         </style>
 </head>
 <body>
@@ -195,8 +201,8 @@
             <li><a href="Account_List.aspx">Account_List</a></li>
            <li><a href="Currency_Update.aspx">currency_Update</a></li>
             <li><a href="Ballance.aspx">Ballances_View</a></li>
-            <li><a href="#">Sign Out</a></li>
-		    <li><a href="Admin_Home.aspx">Home</a></li>
+ <li><a href="Home.aspx">Sign Out</a></li>
+			<li><a href="Admin_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
             <input type="text" name="search" id="search">
@@ -205,6 +211,73 @@
     </nav>
     <form id="form1" runat="server">
         <div style="font-size: xx-large; font-style: italic; color: #C0C0C0;">
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td style="font-size: x-large">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="Username" DataSourceID="SqlDataSource1" Font-Bold="True" Font-Size="20pt" ForeColor="Black" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="826px">
+                            <Columns>
+                                <asp:BoundField DataField="Fname" HeaderText="Fname" SortExpression="Fname" />
+                                <asp:BoundField DataField="Sname" HeaderText="Sname" SortExpression="Sname" />
+                                <asp:BoundField DataField="Gender" HeaderText="Gender" SortExpression="Gender" />
+                                <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
+                                <asp:BoundField DataField="Phone" HeaderText="Phone" SortExpression="Phone" />
+                                <asp:BoundField DataField="Country" HeaderText="Country" SortExpression="Country" />
+                                <asp:BoundField DataField="Username" HeaderText="Username" ReadOnly="True" SortExpression="Username" />
+                                <asp:CommandField HeaderText="Update" ShowDeleteButton="True" ShowEditButton="True" ShowHeader="True" />
+                            </Columns>
+                            <FooterStyle BackColor="#FFFFCC" ForeColor="#330099" />
+                            <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="#FFFFCC" />
+                            <PagerStyle BackColor="#FFFFCC" ForeColor="#330099" HorizontalAlign="Center" />
+                            <RowStyle BackColor="White" ForeColor="#330099" />
+                            <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#663399" />
+                            <SortedAscendingCellStyle BackColor="#FEFCEB" />
+                            <SortedAscendingHeaderStyle BackColor="#AF0101" />
+                            <SortedDescendingCellStyle BackColor="#F6F0C0" />
+                            <SortedDescendingHeaderStyle BackColor="#7E0000" />
+                        </asp:GridView>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [member] WHERE [Username] = @Username" InsertCommand="INSERT INTO [member] ([Fname], [Sname], [Gender], [Email], [Phone], [Country], [Username]) VALUES (@Fname, @Sname, @Gender, @Email, @Phone, @Country, @Username)" SelectCommand="SELECT [Fname], [Sname], [Gender], [Email], [Phone], [Country], [Username] FROM [member]" UpdateCommand="UPDATE [member] SET [Fname] = @Fname, [Sname] = @Sname, [Gender] = @Gender, [Email] = @Email, [Phone] = @Phone, [Country] = @Country WHERE [Username] = @Username">
+                            <DeleteParameters>
+                                <asp:Parameter Name="Username" Type="String" />
+                            </DeleteParameters>
+                            <InsertParameters>
+                                <asp:Parameter Name="Fname" Type="String" />
+                                <asp:Parameter Name="Sname" Type="String" />
+                                <asp:Parameter Name="Gender" Type="String" />
+                                <asp:Parameter Name="Email" Type="String" />
+                                <asp:Parameter Name="Phone" Type="String" />
+                                <asp:Parameter Name="Country" Type="String" />
+                                <asp:Parameter Name="Username" Type="String" />
+                            </InsertParameters>
+                            <UpdateParameters>
+                                <asp:Parameter Name="Fname" Type="String" />
+                                <asp:Parameter Name="Sname" Type="String" />
+                                <asp:Parameter Name="Gender" Type="String" />
+                                <asp:Parameter Name="Email" Type="String" />
+                                <asp:Parameter Name="Phone" Type="String" />
+                                <asp:Parameter Name="Country" Type="String" />
+                                <asp:Parameter Name="Username" Type="String" />
+                            </UpdateParameters>
+                        </asp:SqlDataSource>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
             </div>
     </form>
 </body>

@@ -13,5 +13,10 @@ namespace BANK_SYSTEM
         {
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

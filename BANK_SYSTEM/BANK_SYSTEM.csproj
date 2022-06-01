@@ -77,6 +77,7 @@
     <Content Include="Branches.aspx" />
     <Content Include="Currency.aspx" />
     <Content Include="Currency_Update.aspx" />
+    <Content Include="Edit_profile.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="User_Home.aspx" />
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="Currency_Update.aspx.designer.cs">
       <DependentUpon>Currency_Update.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_profile.aspx.cs">
+      <DependentUpon>Edit_profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit_profile.aspx.designer.cs">
+      <DependentUpon>Edit_profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

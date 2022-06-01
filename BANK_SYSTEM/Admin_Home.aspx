@@ -185,6 +185,12 @@
              width: 210px;
              height:30px;
         }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 69px;
+        }
         </style>
 </head>
 <body>
@@ -196,8 +202,8 @@
             <li><a href="Account_List.aspx">Account_List</a></li>
            <li><a href="Currency_Update.aspx">currency_Update</a></li>
             <li><a href="Ballance.aspx">Ballances_View</a></li>
-            <li><a href="#">Sign Out</a></li>
-		    <li><a href="Admin_Home.aspx">Home</a></li>
+			<li><a href="Home.aspx">Sign Out</a></li>		
+			<li><a href="Admin_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
             <input type="text" name="search" id="search">
@@ -206,8 +212,19 @@
     </nav>
     <form id="form1" runat="server">
         <div style="font-size: xx-large; font-style: italic; color: #000000;">
-            <asp:Image ID="Image1" runat="server" Height="194px" Width="217px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome</div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<table class="auto-style1">
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>
+            <asp:Image ID="Image1" runat="server" Height="182px" Width="189px" src= "images/qq.png"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome Badri</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
     </form>
 </body>
 </html>

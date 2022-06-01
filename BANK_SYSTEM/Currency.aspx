@@ -198,6 +198,9 @@
         .auto-style15 {
             width: 63px;
         }
+        .auto-style16 {
+            margin-left: 129;
+        }
     </style>
 </head>
 <body>
@@ -209,8 +212,8 @@
              <li><a href="Branches.aspx">Branches</a></li>
            <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
-			
-            <li><a href="#">Sign Out</a></li>
+			<li><a href="Edit_profile.aspx">Edit</a></li>
+            <li><a href="Home.aspx">Sign Out</a></li>
 		    <li><a href="User_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
@@ -250,7 +253,25 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td class="auto-style15">&nbsp;</td>
-                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style4">
+                        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" CssClass="auto-style16" DataKeyNames="name" DataSourceID="SqlDataSource1" Font-Bold="True" ForeColor="Black" Height="313px" Width="874px">
+                            <Columns>
+                                <asp:BoundField DataField="name" HeaderText="name" ReadOnly="True" SortExpression="name" />
+                                <asp:BoundField DataField="buy" HeaderText="buy" SortExpression="buy" />
+                                <asp:BoundField DataField="sell" HeaderText="sell" SortExpression="sell" />
+                            </Columns>
+                            <FooterStyle BackColor="#CCCCCC" />
+                            <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                            <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+                            <RowStyle BackColor="White" />
+                            <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                            <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                            <SortedAscendingHeaderStyle BackColor="Gray" />
+                            <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                            <SortedDescendingHeaderStyle BackColor="#383838" />
+                        </asp:GridView>
+                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [currency]"></asp:SqlDataSource>
+                    </td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>

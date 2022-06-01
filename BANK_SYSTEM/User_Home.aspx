@@ -195,8 +195,8 @@
             <li><a href="Branches.aspx">Branches</a></li>
            <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
-			
-            <li><a href="#">Sign Out</a></li>
+			<li><a href="Edit_profile.aspx">Edit</a></li>
+            <li><a href="Home.aspx">Sign Out</a></li>
 		    <li><a href="User_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
@@ -206,7 +206,6 @@
     </nav>
     <form id="form1" runat="server">
         <div style="font-size: xx-large; font-style: italic; color: #C0C0C0;">
-            <asp:Image ID="Image1" runat="server" Height="194px" Width="217px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome</div>
     </form>
 </body>

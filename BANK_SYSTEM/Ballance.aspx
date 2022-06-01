@@ -185,6 +185,12 @@
              width: 210px;
              height:30px;
         }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 433px;
+        }
         </style>
 </head>
 <body>
@@ -196,8 +202,8 @@
             <li><a href="Account_List.aspx">Account_List</a></li>
            <li><a href="Currency_Update.aspx">currency_Update</a></li>
             <li><a href="Ballance.aspx">Ballances_View</a></li>
-            <li><a href="#">Sign Out</a></li>
-		    <li><a href="Admin_Home.aspx">Home</a></li>
+ <li><a href="Home.aspx">Sign Out</a></li>
+			<li><a href="Admin_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">
             <input type="text" name="search" id="search">
@@ -207,6 +213,52 @@
     <form id="form1" runat="server">
         <div style="font-size: xx-large; font-style: italic; color: #C0C0C0;">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#CC9966" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataKeyNames="Username" DataSourceID="SqlDataSource1" Height="245px" Width="293px">
+                        <Columns>
+                            <asp:BoundField DataField="Username" HeaderText="Username" ReadOnly="True" SortExpression="Username" />
+                            <asp:BoundField DataField="ballance" HeaderText="ballance" SortExpression="ballance" />
+                        </Columns>
+                        <FooterStyle BackColor="#FFFFCC" ForeColor="#330099" />
+                        <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="#FFFFCC" />
+                        <PagerStyle BackColor="#FFFFCC" ForeColor="#330099" HorizontalAlign="Center" />
+                        <RowStyle BackColor="White" ForeColor="#330099" />
+                        <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#663399" />
+                        <SortedAscendingCellStyle BackColor="#FEFCEB" />
+                        <SortedAscendingHeaderStyle BackColor="#AF0101" />
+                        <SortedDescendingCellStyle BackColor="#F6F0C0" />
+                        <SortedDescendingHeaderStyle BackColor="#7E0000" />
+                    </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" DeleteCommand="DELETE FROM [transaction] WHERE [Username] = @Username" InsertCommand="INSERT INTO [transaction] ([Username], [ballance]) VALUES (@Username, @ballance)" SelectCommand="SELECT * FROM [transaction]" UpdateCommand="UPDATE [transaction] SET [ballance] = @ballance WHERE [Username] = @Username">
+                        <DeleteParameters>
+                            <asp:Parameter Name="Username" Type="String" />
+                        </DeleteParameters>
+                        <InsertParameters>
+                            <asp:Parameter Name="Username" Type="String" />
+                            <asp:Parameter Name="ballance" Type="String" />
+                        </InsertParameters>
+                        <UpdateParameters>
+                            <asp:Parameter Name="ballance" Type="String" />
+                            <asp:Parameter Name="Username" Type="String" />
+                        </UpdateParameters>
+                    </asp:SqlDataSource>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style2">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>

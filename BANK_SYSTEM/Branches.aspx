@@ -215,10 +215,11 @@
             <div class="logo">
                 <img src= "images/52.png">
             </div>
-           <li><a href="Branches.aspx">Branches</a></li>
+            <li><a href="Branches.aspx">Branches</a></li>
            <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
-            <li><a href="#">Sign Out</a></li>
+			<li><a href="Edit_profile.aspx">Edit</a></li>
+            <li><a href="Home.aspx">Sign Out</a></li>
 		    <li><a href="User_Home.aspx">Home</a></li>
         </ul>
         <div class="rightNav">

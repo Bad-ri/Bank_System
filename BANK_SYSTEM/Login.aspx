@@ -275,13 +275,13 @@
         </style>
     </head>
 <body style="height: 315px">
-<%--    <p id="rcorners1" class="auto-style16"></p>--%>
+    <%--    <p id="rcorners1" class="auto-style16"></p>--%>
      <nav class="navbar background">
         <ul class="nav-list">
             <div class="logo">
                 <img src= "images/52.png">
             </div>
-          <%--  <li><a href="#web">News</a></li>
+            <%--  <li><a href="#web">News</a></li>
             <li><a href="Currency.aspx">currency</a></li>
             <li><a href="Transaction.aspx">Transaction</a></li>
 			<li><a href="Branches.aspx">Branches</a></li>--%>
@@ -355,7 +355,9 @@
                          <td class="auto-style25">&nbsp;&nbsp;&nbsp;&nbsp;
                              <asp:Button ID="Button1" runat="server" Text="OK" CssClass="auto-style10" Font-Bold="False" Font-Overline="False" Font-Size="Small" ForeColor="White" OnClick="Button1_Click" Width="108px" BackColor="#666666" BorderColor="Black" BorderStyle="Solid" Font-Italic="False" Height="30px" style="margin-left: 29px" />
                          </td>
-                         <td>&nbsp;</td>
+                         <td>
+                             <asp:Label ID="y" runat="server" Font-Size="X-Large" ForeColor="#00CC00"></asp:Label>
+                         </td>
                          <td>&nbsp;</td>
                      </tr>
                  </table>

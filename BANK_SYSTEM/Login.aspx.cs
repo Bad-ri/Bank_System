@@ -22,21 +22,34 @@ namespace BANK_SYSTEM
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            // create a connection object to the database
             SqlConnection conn = new SqlConnection();
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\mmesk\\Documents\\GitHub\\Bank_System\\BANK_SYSTEM\\App_Data\\Database1.mdf;Integrated Security=True";
-
-
+            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Database1.mdf;Integrated Security=True";
             string strSelect = "SELECT * FROM member "
-                + " WHERE Username = '" + TextBox1.Text + "'";
-
+                + " WHERE Username = '" + TextBox1.Text + "' AND "
+                + " Password = '" + TextBox2.Text + "'";
             SqlCommand cmdSelect = new SqlCommand(strSelect, conn);
-
             SqlDataReader reader;
-
             conn.Open();
             reader = cmdSelect.ExecuteReader();
+            if (reader.Read())
+            {
+                HttpCookie coco = new HttpCookie("transaction");
+                coco.Values.Add("Username", TextBox1.Text);
+                coco.Expires = DateTime.Now.AddDays(3);
+                Response.Cookies.Add(coco);
+                
+
+                if (TextBox1.Text == "badri2000")
+                    Response.Redirect("~/Admin_Home.aspx");
+                else
+                    Response.Redirect("~/User_Home.aspx");
+            }
+            else
+                y.Text = "Incorrect Username or Password";
+
             conn.Close();
+
+
         }
 
         protected void TextBox2_TextChanged(object sender, EventArgs e)
